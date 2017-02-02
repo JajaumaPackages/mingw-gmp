@@ -2,7 +2,7 @@
 
 Name:       mingw-gmp
 Version:    6.1.1
-Release:    1%{?dist}
+Release:    2%{?dist}
 
 Summary:    Cross-compiled GNU arbitrary precision library
 License:    LGPLv3+ or GPLv2+
@@ -128,6 +128,9 @@ rm -r $RPM_BUILD_ROOT/%{mingw64_prefix}/share
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 6.1.1-2
+- Rebuild with GCC 5.4.0
+
 * Tue Oct 04 2016 Michael Cronenworth <mike@cchtml.com> - 6.1.1-1
 - New upstream release.
 
